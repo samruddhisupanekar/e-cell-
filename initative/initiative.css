@@ -1,0 +1,78 @@
+body {
+  background: #2c2b2b;
+}
+.center {
+  box-sizing: border-box;
+  border-radius: 73%/206px; /* This will create an ellipse shape */
+  position: absolute;
+  width: 488px;
+  height: 272px;
+  left: 493px;
+  top: 59px;
+
+  background: url(related-1.jpg);
+  border: 5px solid #fffeff;
+}
+p {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  color: aliceblue;
+  position: absolute;
+  bottom: 270px;
+  padding-left: 466px;
+}
+h1 {
+  font-size: 100px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  color: aliceblue;
+  position: absolute;
+  bottom: 319px;
+  padding-left: 436px;
+}
+.container {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 105px;
+  border-radius: 2px;
+}
+#eotm p {
+  bottom: 13px;
+  left: -275px;
+}
+#workshop p {
+  bottom: 13px;
+  left: 307px;
+}
+#competition p {
+  bottom: 13px;
+  left: -13px;
+}
+
+#other p {
+  bottom: 13px;
+  left: 640px;
+}
+/*---------------img------------- */
+.img {
+  position: absolute;
+}
+#img1 {
+  left: 141px;
+  bottom: 45px;
+}
+#img2 {
+  left: 434px;
+  bottom: 45px;
+}
+#img3 {
+  left: 734px;
+  bottom: 45px;
+}
+#img4 {
+  left: 1040px;
+  bottom: 45px;
+}
