@@ -1,0 +1,41 @@
+body {
+  background-color: #2C2B2B;
+}
+
+.container-fluid {
+  padding: 2% 5%;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.8rem;
+}
+
+.logo {
+  width: 8%;
+}
+
+.body-text {
+  color: white;
+  text-align: center;
+  margin: 3%;
+}
+
+.front-text {
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 80px;
+}
+
+.demo {
+  width: 15%;
+  padding-bottom: 2%;
+}
+
+.btn-group-vertical
+{
+  margin-top: 400px;
+}
