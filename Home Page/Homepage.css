@@ -11,7 +11,7 @@ body {
 }
 
 .nav-link {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
 }
 
 .logo {
@@ -25,14 +25,15 @@ body {
 }
 
 .front-text {
-  font-weight: 600;
-  font-size: 70px;
-  line-height: 80px;
+font-size: 30px;
+text-align: center;
+margin-left: 400px;
 }
 
 .demo {
-  width: 15%;
+  width: 25%;
   padding-bottom: 2%;
+  margin-left: 400px;
 }
 
 .btn-group-vertical
