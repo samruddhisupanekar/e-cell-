@@ -1,3 +1,7 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
 body {
   background: #2c2b2b;
 }
@@ -76,3 +80,13 @@ h1 {
   left: 1040px;
   bottom: 45px;
 }
+.img-wave {
+  position: relative;
+  top: 553px;
+  z-index: -1;
+
+  filter: invert(30%);
+}
+/* img {
+  filter: invert(30%);
+} */
