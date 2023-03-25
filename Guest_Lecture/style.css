@@ -1,8 +1,8 @@
 body
 {  
-     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/backg.jpg); 
+     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/Untitled\ design.png); 
 }
-.box img
+.box1 img
 {
      width: auto;
      height: 300px;
@@ -15,8 +15,10 @@ body
 }
 .arro
 {
-	display: flex;
+	display:inline-flex;
      position: relative;
+     height: 193px;
+     width: 700px;
      left: 45%;
 }
 .arro a
@@ -42,10 +44,16 @@ body
 }
 .content
 {
+
+     position: relative;
+     left: 25%;
      text-justify:newspaper;
      text-align: center;
      color: aliceblue;
-}
+     width: 950px;
+     height: auto;
+     font-size:larg0e;
+}    
 .end
 {
   text-align: center;
