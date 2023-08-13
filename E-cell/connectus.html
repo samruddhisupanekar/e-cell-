@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link href="connectus.css" rel="stylesheet" type="text/css">
+    <link href="script.js" rel="stylesheet" type="text/javascripy">
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/Ecell transparent logo.png" type="image/x-icon">
+    <title>Connect US</title>
+</head> 
+<style>
+    body{color:#2C2B2B ;}
+    u{font-family:Barlow;color: #F5F5F5;}
+</style>
+<body>
+    <button id="topBtn"><i class="lni lni-arrow-up"></i></button>
+    <script src=" jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                var x=$(document).topBtn();
+                if(x>200){
+                    $("topBtn").show();
+                }
+                else{
+                    $("topBtn").hide();
+                }
+            });
+            $("#topBtn").click(function(){
+                $(window).scrollTop(0 );
+            });
+        });
+    </script>
+    <u>CONNECT US</u>
+    <div class="contact-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3814.196146343547!2d74.279793650632!3d17.06305568821621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc17589398417b7%3A0xa07954b96d2e1abe!2sE-Cell%20RIT!5e0!3m2!1sen!2sin!4v1673461048763!5m2!1sen!2sin" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="contact-form">
+        <form method="POST">
+            <input type="text" placeholder="Full Name" class="contact-from-txt" required/>
+            <br>
+            <input type="email" placeholder="Email Address"  class="contact-from-txt" required/>
+            <br>
+            <textarea placeholder="What can we help you" class="contact-from-txtarea"></textarea>
+            <br>
+            <input type="Submit" placeholder="Submit" class="contact-from-btn" />
+        </form>
+    </div>
+    <div class="footer">
+        <div class="contain">
+        <div class="col">
+          <a href="Home Page.html" class="text-black"><h1>Home</a></h1>
+        </div>
+        <div class="col">
+          <li><a href="About.html" class="text-black"><h1>About</h1></a></li>
+          <ul>
+            <li><a href="vision.html" class="text-black">Vision</a></li>
+            <li><a href="Mission.html" class="text-black">Mission</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <li><a href="initiative.html" class="text-black"><h1>INITATIVES</h1></a></li>
+          <ul>
+            <li><a href="eotm.html" class="text-black">EOTM</a></li>
+            <li><a href="competition.html" class="text-black">Competition</a></li>
+            <li><a href="startup-interaction.html" class="text-black">Startup Interaction</a></li>
+            <li><a href="guest_lect.html" class="text-black">Others</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <li><a href="startup.html" class="text-black"><h1>STARTUPS</h1></a></li>
+          <ul>
+            <li><a href="https://www.tgpbio.com/" class="text-black">TGP</a></li>
+            <li><a href="https://orobot.in/" class="text-black">OROBOT</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <li><a href="gallary.html" class="text-black"><h1>GALLERY</h1></a></li>
+        </div>
+        <div class="col">
+          <h1><a href="#" class="text-black">Others</a></h1>
+          <ul>
+            <li><a href="achievements.html" class="text-black">Achievements</a></li>
+            <li><a href="collabration.html" class="text-black">Collabrations</a></li>
+          </ul>
+        </div>
+        <div class="social-icons">
+            <li><a href="https://www.facebook.com/ecellrit/"><i class="fab fa-facebook-f"></i></a></li> 
+            <li><a href="https://www.instagram.com/ecell_rit/?hl=en"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/entrepreneurship-development-cell-rit-islampur-e-cell-rit/?originalSubdomain=in"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCfD03hlhu6Jep9hKKmSq3DA?app=desktop"><i class="fab fa-youtube"></i></a></li>
+        </div>
+        <img src="Ecell transparent logo.png" class="logo">
+        <hr>
+        <p class="copyright">© Made by E-Cell RIT with Love | All Rights are Reserved</p>
+    </div>
+</div>
+</body>
+</html>

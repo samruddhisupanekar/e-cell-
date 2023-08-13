@@ -1,0 +1,51 @@
+body {
+  background-color: #000;
+}
+
+.container-fluid {
+  padding: 2% 5%;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.9rem;
+}
+
+.logo {
+  width: 8%;
+}
+
+.body-text {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 350px;
+  left: 150px;
+  z-index: 1;
+}
+
+.front-text {
+font-size: 30px;
+text-align: center;
+}
+
+.demo {
+  width: 25%;
+  padding-bottom: 2%;
+  margin-left: 400px;
+}
+
+.btn-group-vertical
+{
+  margin-top: 400px;
+}
+#myVideo {
+  position: relative;
+  top: -250px;
+  left: 400px;
+  width: 50%;
+  height: auto;
+}

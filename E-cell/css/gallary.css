@@ -1,0 +1,264 @@
+.gallary {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.heading-gallary {
+  color: #fff;
+  position: absolute;
+  top: 2.5%;
+  left: 38%;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 86px;
+  letter-spacing: 0.1em;
+}
+.frame {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  width: 400px;
+  height: 400px;
+  /* margin-top: -200px;
+  margin-left: -200px; */
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 396px;
+  height: 396px;
+  display: grid;
+  grid-template-columns: repeat(3, 130px);
+  grid-template-rows: repeat(3, 130px);
+  grid-gap: 3px;
+}
+
+.pic img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.pic {
+  animation: default-animation 0.5s linear;
+}
+
+.pic-1 {
+  transition: all 0.7s ease-in;
+}
+
+.pic-1.clicked {
+  transform: translate(100%, 100%) scale(3.1);
+  transition: all 0.7s ease-out;
+}
+
+.pic-2 {
+  transition: all 0.7s ease-in;
+}
+
+.pic-2.clicked {
+  transform: translate(0, 100%) scale(3.1);
+  transition: all 0.7s ease-out;
+}
+
+.pic-3 {
+  transition: all 0.7s ease-in;
+}
+
+.pic-3.clicked {
+  transform: translate(-100%, 100%) scale(3.1);
+  transition: all 0.7s ease-out;
+}
+
+.pic-4 {
+  transition: all 0.7s ease-in;
+}
+
+.pic-4.clicked {
+  transform: translate(100%, 0) scale(3.1);
+  transition: all 0.7s ease-out;
+}
+
+.pic-5 {
+  transition: all 0.7s ease-in;
+}
+
+.pic-5.clicked {
+  transform: scale(3.1);
+  transition: all 0.7s ease-out;
+}
+
+.pic-6 {
+  transition: all 0.7s ease-in;
+}
+
+.pic-6.clicked {
+  transform: translate(-100%, 0) scale(3.1);
+  transition: all 0.7s ease-out;
+}
+
+.pic-7 {
+  transition: all 0.7s ease-in;
+}
+
+.pic-7.clicked {
+  transform: translate(100%, -100%) scale(3.1);
+  transition: all 0.7s ease-out;
+}
+
+.pic-8 {
+  transition: all 0.7s ease-in;
+}
+
+.pic-8.clicked {
+  transform: translate(0, -100%) scale(3.1);
+  transition: all 0.7s ease-out;
+}
+
+.pic-9 {
+  transition: all 0.7s ease-in;
+}
+
+.pic-9.clicked {
+  transform: translate(-100%, -100%) scale(3.1);
+  transition: all 0.7s ease-out;
+}
+@keyframes default-animation {
+  0% {
+    transform: scale(3.1);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.text-start{
+  color:#fff;
+  font-family: "Barlow";
+  font-style: normal;
+  margin-top: 630px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 54px;
+  text-align: center;
+}
+
+@media screen and (max-width: 787px){
+  .heading-gallary{
+    top: 2.5%;
+    left: 34%;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 86px;
+    letter-spacing: 0.1em;
+  } 
+  .frame {
+    top: 25%;
+    left: 25%;
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 587px){
+  .heading-gallary{
+    top: 2.5%;
+    left: 29%;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 86px;
+    letter-spacing: 0.1em;
+  } 
+  .frame {
+    top: 25%;
+    left: 15%;
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 494px){
+  .heading-gallary{
+    top: 2.5%;
+    left: 24%;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 86px;
+    letter-spacing: 0.1em;
+  } 
+  .frame {
+    top: 25%;
+    left: 6%;
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 430px){
+  .heading-gallary{
+    top: 2.5%;
+    left: 19%;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 86px;
+    letter-spacing: 0.1em;
+  } 
+  .frame {
+    top: 25%;
+    left: 1.2%;
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 386px){
+  .heading-gallary{
+    top: 2.5%;
+    left: 60%;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 86px;
+    letter-spacing: 0.1em;
+  } 
+  .frame {
+    top: 25%;
+    left: 0%;
+    width: 400px;
+    height: 400px;
+  }
+  .text-start {
+    margin-top: 630px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 54px;
+    margin-left: 50px;
+  }
+  
+}
+@media screen and (max-width: 430px){
+  .heading-gallary{
+    top: 2.5%;
+    left: 19%;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 86px;
+    letter-spacing: 0.1em;
+  } 
+  .frame {
+    top: 25%;
+    left: 1.2%;
+    width: 400px;
+    height: 400px;
+  }
+}

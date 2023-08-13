@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com  -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="icon" href="images/Ecell transparent logo.png" type="image/x-icon">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <section class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="images/Untitled design.png" alt="" class="image" />
+          <div class="image-data">
+            <img src="images/Rectangle 68.png"><br />
+            <span class="text">About us</span> <br />
+            <h2>
+              We at E-Cell RIT works as a start-up and help students in their<br> entrepreneurial journeys.
+              <br>E-cell RIT provides great opportunities for start-ups, colleges,<br> and corporates to get involved with us.<br />
+            </h2>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="images/Untitled design.png" alt="" class="image" />
+          <div class="image-data">
+            <img src="images/Rectangle 68 (1).png"> <br />
+            <span class="text">Vision</span> <br />
+            <h2>
+              To develop an ecosystem that will nurture the development of<br> the Entrepreneurial mindset of the RIT community; <br />
+              which will be able to solve the problems profitably.<br />
+            </h2>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="images/Untitled design.png" alt="" class="image" />
+          <div class="image-data">
+            <img src="images/Rectangle 68 (2).png"> <br />
+            <span class="text">Misson</span> <br />
+            <h2>
+              To provide efficient interaction between its major components spanning students, <br>working professionals,aspiringand existing
+              entrepreneurs,<br> mentors, angel investors, venture capital firms,and corporate <br>through initiatives like interactive sessions.  <br />
+              <br />
+              To provide basic resources required for an enterprise.<br />
+              <br />
+              To provide the necessary training programs for the    E-Cell community.<br />
+              
+            </h2>            
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <script src="swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

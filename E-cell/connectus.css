@@ -1,0 +1,254 @@
+body{
+    background-color: #2C2B2B;
+}
+u{
+    position: absolute;
+width: 549px;
+height: 86px;
+left: 445px;
+top: 46px;
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+color: #f5f5f5;
+}
+.back-to-top i{
+    position: absolute;
+color: #FFFFFF;
+}
+.back-to-top{
+    position: absolute;
+width: 52px;
+height: 46px;
+left: 1374px;
+top: 571px;
+}
+.back-to-top.active{
+    visibility: visible;
+}
+iframe {
+    position: absolute;
+width: 400px;
+height: 400px;
+left: 170px;
+top: 146px;
+}
+input[type="text"],
+input{
+    position: absolute;
+width: 718px;
+height: 48px;
+left: 668px;
+top: 146px;
+
+background: #FFFFFF;
+}
+input[type="email"],
+input{
+    position: absolute;
+width: 718px;
+height: 48px;
+left: 670px;
+top: 227px;
+
+background: #FFFFFF;
+}
+textarea {
+    position: absolute;
+width: 718px;
+height: 175px;
+left: 668px;
+top: 308px;
+
+background: #FFFFFF;
+}
+input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    
+    position: absolute;
+    width: 375px;
+    height: 48px;
+    left: 821px;
+    top: 523px;
+    color: #000000;
+    
+    background: #D9D9D9;
+}
+.footer{
+    position: relative;
+width: 1550px;
+height: 340px;
+left: -40px;
+top: 636px;
+
+background: #D9D9D9;
+}
+
+  /* STYLES SPECIFIC TO FOOTER  */
+  .footer .col {
+    width: 300px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-left: 15px;
+    list-style: none;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color:#2b2c2b(13, 8, 8, 0.2);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.200em;
+    margin-left: 250px;
+    font-family: Barlow;
+    list-style: none;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #2b2c2b;
+    font-size: 16px;
+    font-family: Barlow;
+    font-weight: normal;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    margin-left: 250px;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .text-black{
+    color: #2C2B2B;
+  }
+  .clearfix {
+    clear: both;
+  }
+  @media only screen and (min-width: 1280px) {
+    .contain {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 1139px) {
+    .contain .social {
+      width: 1000px;
+      display: block;
+    }
+    .social h1 {
+      margin: 0px;
+    }
+  }
+  @media only screen and (max-width: 950px) {
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col h1 {
+        font-size: 14px;
+      }
+      .footer .col ul li {
+        font-size: 13px;
+      }
+  }
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }
+.social-icons {
+    position: relative;
+    display: flex;
+    top: 185px;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    left: -975px;
+}
+.social-icons li{
+    list-style: none;
+}
+.social-icons li a{
+    font-size: 1cm;
+    color: #2C2B2B;
+    margin: 0 5px; 
+    display: inline-block;
+    transition: 0.5s;
+}
+.social-icons li a:hover{
+    transform:   translateY(-10px);
+}
+html{
+     scroll-behavior: smooth;
+}
+#topBtn{
+    position: absolute;
+width: 40px;
+height: 34px;
+left: 1440px;
+top: 598px;
+cursor: pointer;
+}
+.logo{
+    position: absolute;
+width: 254px;
+height: 132px;
+left: 63px;
+top: 30px;
+}
+
+hr{
+    position: absolute;
+    width: 1220px;
+    height: 0px;
+    left: 129px;
+    top: 295px;
+    
+    border: 1px solid #000000;
+    transform: rotate(0.05deg);
+}
+.copyright{
+    position: absolute;
+left: 530px;
+top: 310px;
+font-family: 'Barlow';
+color: black;
+font-size: 15px;
+
+}

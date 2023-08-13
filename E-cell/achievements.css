@@ -1,0 +1,33 @@
+body
+{
+  background-color: #2C2B2B;
+    padding: 2% 5%;
+}
+
+h1
+{
+  color: white;
+  font: Barlow;
+}
+
+.container-fluid
+{
+  padding: 2% 5%;
+}
+
+.ach-img
+{
+  width: 70%;
+
+}
+.row
+{
+    margin-top: 40px;
+}
+
+.carousel-item
+{
+  width: 80%;
+  margin-left: 70px;
+  
+}

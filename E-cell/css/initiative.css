@@ -1,0 +1,90 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background: black;
+}
+.center {
+  box-sizing: border-box;
+  border-radius: 73%/275px;
+  position: absolute;
+  width: 805px;
+  height: 375px;
+  left: 363px;
+  top: 31px;
+  background: url(related-1.jpg);
+  border: 3px solid #fffeff
+}
+p {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  color: aliceblue;
+  position: absolute;
+  bottom: 270px;
+  padding-left: 466px;
+}
+h1 {
+  font-size: 100px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  color: aliceblue;
+  position: absolute;
+  bottom: 336px;
+  padding-left: 473px;
+}
+.container {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 105px;
+  border-radius: 2px;
+}
+#eotm p {
+  bottom: 13px;
+  left: -275px;
+}
+#workshop p {
+  bottom: 13px;
+  left: 307px;
+}
+#competition p {
+  bottom: 13px;
+  left: -13px;
+}
+
+#other p {
+  bottom: 13px;
+  left: 640px;
+}
+/*---------------img------------- */
+.img {
+  position: absolute;
+  width: 250px;
+  height: 240px;
+}
+#img1 {
+  left: 141px;
+  bottom: 45px;
+}
+#img2 {
+  left: 434px;
+  bottom: 45px;
+}
+#img3 {
+  left: 734px;
+  bottom: 45px;
+}
+#img4 {
+  left: 1040px;
+  bottom: 45px;
+}
+.img-wave {
+  position: relative;
+  top: 553px;
+  z-index: -1;
+
+  filter: invert(30%);
+}
